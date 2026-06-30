@@ -1,0 +1,64 @@
+.message {
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+  background: var(--card-bg);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.content h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+
+.content p {
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.content time {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.delete {
+  flex-shrink: 0;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid #dc2626;
+  border-radius: 8px;
+  background: transparent;
+  color: #dc2626;
+  font: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background: #dc2626;
+  color: #fff;
+}

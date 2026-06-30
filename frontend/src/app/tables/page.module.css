@@ -1,0 +1,87 @@
+.page {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.error {
+  padding: 0.85rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+  font-size: 0.9rem;
+}
+
+.message {
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+  background: var(--card-bg);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color 0.15s;
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+.card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+  text-transform: capitalize;
+}
+
+.card p {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.arrow {
+  font-size: 0.875rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .error {
+    background: #7f1d1d;
+    color: #fca5a5;
+    border-color: #991b1b;
+  }
+}

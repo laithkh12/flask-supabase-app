@@ -1,0 +1,51 @@
+.page {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--accent);
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.error {
+  padding: 0.85rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+  font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .error {
+    background: #7f1d1d;
+    color: #fca5a5;
+    border-color: #991b1b;
+  }
+}

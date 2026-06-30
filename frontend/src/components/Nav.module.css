@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.links a {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.links a:hover {
+  color: var(--accent);
+}
